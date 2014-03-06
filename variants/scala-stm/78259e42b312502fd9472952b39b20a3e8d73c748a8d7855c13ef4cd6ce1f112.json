@@ -1,0 +1,192 @@
+{
+  "id" : "scala-stm",
+  "info" : { },
+  "attributes" : {
+    "organization" : [ "org.scala-stm" ],
+    "name" : [ "scala-stm_2.10" ],
+    "version" : [ "0.7" ]
+  },
+  "configurations" : [ {
+    "id" : "runtime",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "org.scala-stm" ],
+      "name" : [ "scala-stm_2.10" ],
+      "version" : [ "0.7" ]
+    },
+    "requirements" : [ {
+      "id" : "scala-library",
+      "configurations" : [ "master", "runtime", "compile" ],
+      "constraints" : {
+        "binary-version" : [ "2.10" ]
+      }
+    } ]
+  }, {
+    "id" : "system",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "org.scala-stm" ],
+      "name" : [ "scala-stm_2.10" ],
+      "version" : [ "0.7" ]
+    },
+    "requirements" : [ {
+      "id" : "scala-library",
+      "configurations" : [ ],
+      "constraints" : {
+        "binary-version" : [ "2.10" ]
+      }
+    } ]
+  }, {
+    "id" : "test",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "org.scala-stm" ],
+      "name" : [ "scala-stm_2.10" ],
+      "version" : [ "0.7" ]
+    },
+    "requirements" : [ {
+      "id" : "scala-library",
+      "configurations" : [ ],
+      "constraints" : {
+        "binary-version" : [ "2.10" ]
+      }
+    } ]
+  }, {
+    "id" : "provided",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "org.scala-stm" ],
+      "name" : [ "scala-stm_2.10" ],
+      "version" : [ "0.7" ]
+    },
+    "requirements" : [ {
+      "id" : "scala-library",
+      "configurations" : [ ],
+      "constraints" : {
+        "binary-version" : [ "2.10" ]
+      }
+    } ]
+  }, {
+    "id" : "javadoc",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "org.scala-stm" ],
+      "name" : [ "scala-stm_2.10" ],
+      "version" : [ "0.7" ]
+    },
+    "requirements" : [ {
+      "id" : "scala-library",
+      "configurations" : [ ],
+      "constraints" : {
+        "binary-version" : [ "2.10" ]
+      }
+    } ]
+  }, {
+    "id" : "default",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ {
+      "hash" : "779aa03cba0398d3a3fc97cb665c15aafbfb532f104c1e52711a25afc4d88dc8",
+      "attributes" : {
+        "configurations" : [ "master" ]
+      },
+      "filename" : "scala-stm_2.10-0.7.jar"
+    } ],
+    "attributes" : {
+      "organization" : [ "org.scala-stm" ],
+      "name" : [ "scala-stm_2.10" ],
+      "version" : [ "0.7" ]
+    },
+    "requirements" : [ {
+      "id" : "scala-library",
+      "configurations" : [ "master", "runtime", "compile" ],
+      "constraints" : {
+        "binary-version" : [ "2.10" ]
+      }
+    } ]
+  }, {
+    "id" : "sources",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "org.scala-stm" ],
+      "name" : [ "scala-stm_2.10" ],
+      "version" : [ "0.7" ]
+    },
+    "requirements" : [ {
+      "id" : "scala-library",
+      "configurations" : [ ],
+      "constraints" : {
+        "binary-version" : [ "2.10" ]
+      }
+    } ]
+  }, {
+    "id" : "optional",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "org.scala-stm" ],
+      "name" : [ "scala-stm_2.10" ],
+      "version" : [ "0.7" ]
+    },
+    "requirements" : [ {
+      "id" : "scala-library",
+      "configurations" : [ ],
+      "constraints" : {
+        "binary-version" : [ "2.10" ]
+      }
+    } ]
+  }, {
+    "id" : "compile",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "org.scala-stm" ],
+      "name" : [ "scala-stm_2.10" ],
+      "version" : [ "0.7" ]
+    },
+    "requirements" : [ {
+      "id" : "scala-library",
+      "configurations" : [ "compile", "master" ],
+      "constraints" : {
+        "binary-version" : [ "2.10" ]
+      }
+    } ]
+  }, {
+    "id" : "master",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ {
+      "hash" : "779aa03cba0398d3a3fc97cb665c15aafbfb532f104c1e52711a25afc4d88dc8",
+      "attributes" : {
+        "configurations" : [ "master" ]
+      },
+      "filename" : "scala-stm_2.10-0.7.jar"
+    } ],
+    "attributes" : {
+      "organization" : [ "org.scala-stm" ],
+      "name" : [ "scala-stm_2.10" ],
+      "version" : [ "0.7" ]
+    },
+    "requirements" : [ {
+      "id" : "scala-library",
+      "configurations" : [ ],
+      "constraints" : {
+        "binary-version" : [ "2.10" ]
+      }
+    } ]
+  } ]
+}
